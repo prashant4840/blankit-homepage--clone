@@ -1,7 +1,7 @@
 # Blankit-homepage--clone
 
-Frontend Engineering(Shivam Sir) -- TASK07
+Frontend Engineering(Shivam Sir) -- TASK07 <br>
 
-NAME = PRASHANT SHARMA
-SECTION = FF
+NAME = PRASHANT SHARMA <br>
+SECTION = FF <br>
 ROLL NO. = 48
