@@ -84,17 +84,6 @@ button {
     display: block;
 }
 
-/* @media (max-width: 768px) {
-    .offers {
-        grid-template-columns: 1fr;
-        width: 90%;
-    }
-
-    .offer-card img {
-        height: auto;
-    }
-} */
-
 .category-section,
 .product-section {
     margin: 35px 25px;
@@ -167,47 +156,6 @@ button {
     border: 1px solid #0c831f;
     font-weight: bold;
 }
-
-/* @media (max-width: 768px) {
-    header {
-        flex-wrap: wrap;
-        padding: 10px;
-    }
-
-    input {
-        width: 90%;
-        order: 5;
-    }
-
-    .banner {
-        margin: 15px;
-    }
-
-    .offers {
-        flex-wrap: wrap;
-        margin: 15px;
-    }
-
-    .offer-card {
-        flex: 1 1 40%;
-    }
-
-    .category-section,
-    .product-section {
-        margin: 25px 15px;
-    }
-
-    .categories,
-    .products {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 12px;
-    }
-
-    .category img {
-        height: 140px;
-    }
-} */
-
 
 .search-box {
     display: flex;
