@@ -1,6 +1,6 @@
 # Blankit-homepage--clone
 
-Frontend Engineering(Shivam Sir) -- TASK07 <br>
+<b> Frontend Engineering(Shivam Sir) -- TASK07 </b> <br>
 
 NAME = PRASHANT SHARMA <br>
 SECTION = FF <br>
