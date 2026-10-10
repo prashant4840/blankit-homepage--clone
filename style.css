@@ -61,8 +61,6 @@ button {
     border-radius: 12px;
 }
 
-
-
 .offers {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
