@@ -9,16 +9,29 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 35px;
-    gap: 30px;
+    padding: 15px 50px;
+    gap: 35px;
     border-bottom: 1px solid #eee;
 }
 
 .logo {
     color: #f8cb46;
-    font-size: 42px;
+    font-size: 60px;
     font-weight: bold;
     margin: 0;
+    letter-spacing: -3px;
+}
+
+.logo::first-letter {
+    color: #f8cb46;
+}
+
+.logo span:first-child {
+    color: #f8cb46;
+}
+
+.logo span:last-child {
+    color: #52ae32;
 }
 
 .location {
@@ -244,4 +257,17 @@ button {
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
     }
+}
+
+header button {
+    padding: 15px 35px;
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+.login {
+    padding: 15px 35px;
+    font-size: 20px;
+    border-radius: 12px;
+    min-width: 140px;
 }
