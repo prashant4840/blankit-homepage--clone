@@ -8,20 +8,22 @@ body {
 header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 15px 25px;
-    gap: 10px;
+    justify-content: space-between;
+    padding: 15px 35px;
+    gap: 30px;
     border-bottom: 1px solid #eee;
 }
 
 .logo {
     color: #f8cb46;
-    font-size: 32px;
+    font-size: 42px;
     font-weight: bold;
+    margin: 0;
 }
 
 .location {
-    font-size: 13px;
+    font-size: 16px;
+    min-width: 330px;
 }
 
 .location p {
@@ -158,16 +160,18 @@ button {
 .search-box {
     display: flex;
     align-items: center;
-    gap: 10px;
-    width: 40%;
-    padding: 0 15px;
+    gap: 12px;
+    flex: 1;
+    height: 55px;
+    padding: 0 18px;
     border: 1px solid #eee;
-    border-radius: 10px;
+    border-radius: 12px;
     background: #f7f7f7;
+    box-sizing: border-box;
 }
 
 .search-box span {
-    font-size: 25px;
+    font-size: 28px;
 }
 
 .search-box input {
@@ -176,8 +180,68 @@ button {
     border: none;
     outline: none;
     background: transparent;
+    font-size: 18px;
 }
 
 .cart {
-    margin-left: -40px;
+    background: #0c831f;
+    color: white;
+    border: none;
+    margin-left: 0;
+    min-width: 155px;
+    padding: 15px 25px;
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .location {
+        min-width: 0;
+    }
+
+    .search-box {
+        width: 100%;
+        flex: none;
+        box-sizing: border-box;
+    }
+
+    .banner {
+        margin: 10px;
+    }
+
+    .offers {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        width: auto;
+        margin: 15px 10px;
+    }
+
+    .category-section,
+    .product-section {
+        margin: 20px 10px;
+    }
+
+    .categories {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .category img {
+        height: 100px;
+    }
+
+    .category p {
+        font-size: 12px;
+    }
+
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
 }
